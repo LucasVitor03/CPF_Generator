@@ -15,7 +15,7 @@ for num in cpf_nove_digitos:
 num1 = resultado1 * 10 % 11
 num1 = num1 if num1 <= 9 else 0
 
-cpf_dez_digito = cpf_nove_digitos[:10]
+cpf_dez_digito = cpf_nove_digitos + str(num1)
 contador2 = 11
 resultado2 = 0
 
